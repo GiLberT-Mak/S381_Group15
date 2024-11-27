@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your To Do list</title>
+    <link rel="stylesheet" href="homestyle.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <h2>HI <%=user.username%> , Here is your To-Do-List:</h2>
+            
+            <hr>
+        </div>
+        <div class="list">
+            <% for (var t of Tasks) { %>
+                <li>Task: <a href="/details?_id=<%= t._id %>"><%= t.taskname %></a><span>  Deadline: <%= t.deadline %></span></li>
+            <% } %>
+        </div>
+        <hr>
+        <a href="/create" class="btn">Create Your next TO-DO-ITEM</a>
+        <a href="/logout" class="btn">Logout</a>
+    </div>
+    
+
+</body>
+</html>

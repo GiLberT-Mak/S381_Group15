@@ -1,0 +1,32 @@
+{
+  "name": "s381f",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engine": "node >= 20.0.0",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "start": "node server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "connect-mongodb-session": "^5.0.0",
+    "ejs": "^3.1.10",
+    "express": "^4.17.1",
+    "express-flash": "^0.0.2",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.18.1",
+    "fs": "^0.0.1-security",
+    "mongodb": "^6.11.0",
+    "mongoose": "^8.8.2",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.7"
+  }
+}

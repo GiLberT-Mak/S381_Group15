@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Details</title>
+    <link rel="stylesheet" href="detailstyle.css">
+</head>
+<body>
+    <div class="container">
+        <H2>Task's Details</H2><hr>
+        <p>Task's Name: <%= Tasks.taskname %></p>
+        <p>Deadline: <%= Tasks.deadline %></p>
+        <p>Task's Details: <%= Tasks.content %></p>
+        <div class="btn-box">
+            <a href="/edit?_id=<%= Tasks._id %>" class="btn">edit</a><br>
+            <a href="/delete?_id=<%= Tasks._id %>" class="btn">delete</a><br>
+            <a href="/" class="btn">home</a>
+        </div>
+
+    </div>
+    
+</body>
+</html>

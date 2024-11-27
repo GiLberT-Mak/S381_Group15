@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Createing New Task</title>
+    <link rel="stylesheet" href="createstyle.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form action="/create" method="post">
+            <h1>Create New Task</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Task's Name" name="taskName" required>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Deadline" name="deadlineDate" required>
+            </div>
+            <div class="input-box-detail">
+                <input type="text" placeholder="Details?" name="taskContent" value="N.A." required>
+            </div>
+            <button type="submit" class="btn">create</button>
+        </form>
+    </div>
+</body>
+</html>
