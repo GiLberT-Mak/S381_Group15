@@ -1,5 +1,7 @@
-1. Project info: Project name, Group info (group no., students’ names and SID)
-2. Project file intro:
+1. Project info: To-Do-List Website,
+2. Group info : Group no.15,
+                students’ names and SID
+4. Project file intro:
 - server.js: a brief summary of functionalities it provided, …
 - package.json: lists of dependencies, …
 - public (folder, if you have): what static files included, …
